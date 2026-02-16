@@ -4,7 +4,7 @@
 
 This project implements a modular ELT pipeline for cybersecurity data using:
 
-- CIRCL CVE Search API (recent vulnerabilities, no key required)
+- CIRCL CVE Search API (recent vulnerabilities)
 - Kaggle Cybersecurity Incidents dataset
 - Google Trends (search interest in cybersecurity topics)
 
