@@ -30,7 +30,7 @@ This project implements a modular ELT pipeline for cybersecurity data using:
    ```
 2. Run Files :
    ```bash
-   python run_pipeline.py , python transform_clean ,  python analysis_visuals.py
+   python run_pipeline.py , python transform_clean.py ,  python analysis_visuals.py
    ```
 
 # Part 2: Transform, Clean, and Analyze
