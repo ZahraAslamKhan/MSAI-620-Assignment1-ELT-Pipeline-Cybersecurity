@@ -28,12 +28,16 @@ This project implements a modular ELT pipeline for cybersecurity data using:
    ```bash
    pip install pandas matplotlib seaborn requests pytrends
    ```
+2. Run Files :
+   ```bash
+   python run_pipeline.py , python transform_clean ,  python analysis_visuals.py
+   ```
 
 # Part 2: Transform, Clean, and Analyze
 
 I checked missing values and duplicates in both Kaggle and CVE datasets. I cleaned them by filling missing values with "Unknown", removing duplicates, and standardizing date formats. I generated summary statistics to understand the data better.
 
-For analysis, I created three visualizations:
+For analysis, I created many visualizations like:
 
 1. A time-series chart showing CVEs published per year.
 2. A bar chart showing incidents by industry from the Kaggle dataset.
